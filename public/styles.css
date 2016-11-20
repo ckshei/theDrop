@@ -3,7 +3,7 @@
 }
 
 html { 
-  background: url(images/bg-min.png) no-repeat center center fixed; 
+  background: url(bg-min.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ body {
 }
 
 button.the-button {
-  background-color: purple;
+  background-color: #75125e;
   padding: 19px 63px; 
   font-size: 23px;
   color: #fff;
@@ -47,7 +47,7 @@ button.the-button {
 }
 
 button.the-button:hover {
-  background-color: blue;
+  background-color: purple;
   padding: 19px 83px;
   
 }
