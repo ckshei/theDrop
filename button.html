@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+  </head>
+  <body>
+    <button> Reserve </button>
+    <p id="timer"></p>
+  </body>
+  <script type="text/javascript" charset="utf-8">
+    (function() {
+    let countdownNumber = document.getElementById("timer")
+    for( var i = 20; i--; i > 0) {
+      window.setTimeout(1000)    
+      countDownNumber.innerHTML(i)
+    }
+    })();
+  </script>
+</html>
